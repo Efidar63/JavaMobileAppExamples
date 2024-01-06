@@ -24,9 +24,43 @@ public class Statements {
         System.out.println(x!=y);
 
         //and &&  or ||
-
-        x=3;
-        y=4;
-        int z=5;
+        x = 30;
+        y = 30;
+        int z = 5;
         System.out.println(x<y || z<y);
-}}
+
+        // if statements
+
+        if (x < y) {
+            System.out.println("y is bigger");
+        } else if (x < x) { System.out.println("x is bigger");
+        } else {
+            System.out.println("x = y");}
+
+        //switch
+
+        int day = 2;
+        String dayString = "";
+        if (day == 1) {
+            dayString = "Monday";
+        } else if (day == 2) {
+            dayString = "Tuesday";
+        } else if (day == 3) {
+            dayString = "Wednesday";
+        } else {
+            dayString = "Sunday";
+        }
+        System.out.println(dayString);
+/*
+        switch (day){
+        case 1:
+        dayString = "Monday"; break;
+        case 2:
+        dayString = "Tuesday"; break;
+        case 3:
+        dayString = "Wednesday"; break;
+        default:
+        dayString = "Sunday"; break;
+        System.out.println(dayString);
+        }*/
+    }}
